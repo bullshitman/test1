@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Новостная лента</string>
+    <string name="football_tab">Футбол</string>
+    <string name="hockey_tab">Хоккей</string>
+    <string name="tennis_tab">Теннис</string>
+    <string name="basketball_tab">Баскетбол</string>
+    <string name="volleyball_tab">Волейбол</string>
+    <string name="cybersport_tab">Кибер спорт</string>
+    <string name="error_news">Ошибка при загрузке новостей</string>
+    <string name="error_post">Ошибка при загрузке данной новости</string>
+    <string name="place">Место:</string>
+    <string name="tournament">Турнир:</string>
+    <string name="when">Когда:</string>
+    <string name="no_connection">Нет доступа к интернету</string>
+    <string name="prediction">Прогноз:</string>
+</resources>

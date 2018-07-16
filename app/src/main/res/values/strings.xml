@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="football_tab">Football</string>
+    <string name="hockey_tab">Hockey</string>
+    <string name="tennis_tab">Tennis</string>
+    <string name="basketball_tab">Basketball</string>
+    <string name="volleyball_tab">Volleyball</string>
+    <string name="cybersport_tab">Cyber sport</string>
+    <string name="error_news">Error with uploading news</string>
+    <string name="error_post">Error with uploading this post</string>
+    <string name="place">Place:</string>
+    <string name="tournament">Tournament:</string>
+    <string name="when">When:</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="prediction">Prediction:</string>
+</resources>
