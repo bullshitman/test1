@@ -46,6 +46,7 @@ public class NewsDetailActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
 //        articleLink = "/2018/02/15/lester-sheffild-junajted-prognoz-na-kubok-anglii-16-02-2018";
+
         RetrofitApi apiService = ApiService.getListEventService();
         apiService.getArticleDetails(articleLink).enqueue(new Callback<ArticleDetail>() {
             @Override
