@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager pager) {
         SectionPagerAdapter adapter = new SectionPagerAdapter(getSupportFragmentManager());
-//        if ((findViewById(R.id.frag_container) == null) && (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT)) {
             adapter.addingFrag(new FootballFragment(), (String) getResources().getText(R.string.football_tab));
             adapter.addingFrag(new HockeyFragment(), (String) getResources().getText(R.string.hockey_tab));
             adapter.addingFrag(new TennisFragment(), (String) getResources().getText(R.string.tennis_tab));
